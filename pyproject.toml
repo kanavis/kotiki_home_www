@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kt_home"
+version = "0.1.0"
+description = "Home tools web page"
+authors = [
+    { name="Dmitry Konovalov", email="dkanavis@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+urls = { homepage = "https://kanavis.pw", repository = "https://github.com/kanavis/kt_home"}
+
+dependencies = [
+    "django >= 5.0",
+]
